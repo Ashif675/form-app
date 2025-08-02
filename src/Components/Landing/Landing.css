@@ -1,0 +1,48 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.landing-container h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.landing-buttons button {
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing-buttons .login-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.landing-buttons .login-btn:hover {
+  background-color: #0056b3;
+}
+
+.landing-buttons .signup-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.landing-buttons .signup-btn:hover {
+  background-color: #1e7e34;
+}
