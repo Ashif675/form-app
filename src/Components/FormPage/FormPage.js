@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FormPage.css";
-
-// Firebase Firestore imports
-import { db, auth } from "../../firebase"; // adjust the path as needed
+import { db, auth } from "../../firebase"; 
 import { doc, setDoc } from "firebase/firestore";
 
 const FormPage = () => {
